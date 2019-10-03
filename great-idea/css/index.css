@@ -446,6 +446,8 @@ li::before {
   .feat-about-content {
     display: flex;
     flex-direction: column;
+
+    align-items: center;
   }
 
   .content {
@@ -500,6 +502,18 @@ li::before {
   }
 
   .navigation {
-	  position: initial;
+    position: initial;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
